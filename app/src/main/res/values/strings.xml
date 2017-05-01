@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">IFW Manager</string>
+    <string name="empty">Empty</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <!-- When load, apply or delete workspace -->
+    <string name="workspace_init">Init Workspace</string>
+    <string name="workspace_init_error">Can not init workspace</string>
+    <!-- XML Detail tabs -->
+    <string name="detail_tabs_receivers">Receivers</string>
+    <string name="detail_tabs_activities">Activities</string>
+    <string name="detail_tabs_services">Services</string>
+    <!-- Block List -->
+    <string name="block_list_group">Group</string>
+    <string name="block_list_group_summary">%1$s Rules</string>
+    <string name="block_list_is_block">Block</string>
+    <!-- Rule Detail -->
+    <string name="rule_detail_type">Type</string>
+    <string name="rule_detail_type_action">Action</string>
+    <string name="rule_detail_type_categories">Categories</string>
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_about">About</string>
+    <!-- Developer Options -->
+    <string name="developer_title">Developer Options</string>
+</resources>

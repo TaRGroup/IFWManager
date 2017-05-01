@@ -1,0 +1,10 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar" >
+    </style>
+    <style name="TextAppearance.CategoryTitle" parent="@android:style/TextAppearance.Material.Body2">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.TileTitle" parent="@android:style/TextAppearance.Material.Subhead" />
+    <style name="TextAppearance.Small" parent="@android:style/TextAppearance.Material.Small" />
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--最底层-->
+    <item android:gravity="center">
+        <color android:color="#B2DFDB" />
+    </item>
+    <!--次上层-->
+    <item android:top="-100dp"
+        android:left="200dp"
+        android:gravity="bottom">
+        <rotate
+            android:fromDegrees="45"
+            android:toDegrees="45">
+            <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                android:shape="rectangle">
+                <solid android:color="#009688" />
+                <stroke
+                    android:width="1dp"
+                    android:color="#009688" />
+                <corners
+                    android:topLeftRadius="20dp"
+                    android:topRightRadius="0dp"
+                    android:bottomRightRadius="0dp"
+                    android:bottomLeftRadius="0dp" />
+            </shape>
+        </rotate>
+    </item>
+    <!--显示在最上面-->
+    <item
+        android:top="350dp" android:left="150dp">
+        <rotate
+            android:fromDegrees="45"
+            android:toDegrees="45">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <!-- rectangle表示为矩形 -->
+
+            <!-- 填充的颜色 -->
+            <solid android:color="#E0F2F1" />
+
+            <!-- 边框的颜色和粗细 -->
+            <stroke
+                android:width="1dp"
+                android:color="#E0F2F1"
+                />
+
+            <!-- android:radius 圆角的半径 -->
+            <corners
+                android:topLeftRadius="20dp"
+                android:topRightRadius="0dp"
+                android:bottomRightRadius="0dp"
+                android:bottomLeftRadius="0dp"
+                />
+        </shape>
+        </rotate>
+    </item>
+</layer-list>
